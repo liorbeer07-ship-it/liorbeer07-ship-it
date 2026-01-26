@@ -1,0 +1,26 @@
+h1 {
+font-size: 48px;
+font-family: Impact, sans-serif;
+}
+h2 {
+font-size: 35px;
+font-family: Impact, sans-serif;
+}
+h3 {
+font-size: 20px;
+font-family: Impact, sans-serif;
+}
+p {
+font-size: 20px;
+font-family: Impact, sans-serif;
+}
+
+.degrade-horizontal {
+  background: linear-gradient(to right, #2F2534, beige);
+  height: 100%
+}
+.img1 {
+  object-position: relative;
+  top: 30px;
+  
+}
