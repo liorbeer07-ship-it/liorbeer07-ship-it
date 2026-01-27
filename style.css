@@ -18,10 +18,11 @@ font-size: 20px;
 font-family: Impact, sans-serif;
 }
 
-.degrade-horizontal {
+body { 
   background: linear-gradient(to right, #2F2534, beige);
   height: 100%
 }
+
 
 .img1 {
   object-position: relative;
