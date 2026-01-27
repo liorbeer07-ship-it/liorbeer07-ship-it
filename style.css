@@ -26,6 +26,11 @@ body {
  background-size: 100% 100%;
 }
 
+.banner {
+ width:1600px;
+ heigth:500px;
+ background-color: #ffffff;
+}
 
 .img1 {
   object-position: relative;
