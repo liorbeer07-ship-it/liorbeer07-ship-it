@@ -18,10 +18,9 @@ font-size: 20px;
 font-family: Impact, sans-serif;
 }
 
+ body { background-color: #ff7e5f; /* fallback */ background-image: linear-gradient(#2F2534, beige) 
+      }
 
-body { 
-  background: linear-gradient(to right, #2F2534, beige);
-}
 
 .img1 {
   object-position: relative;
