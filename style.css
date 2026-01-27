@@ -19,7 +19,9 @@ font-family: Impact, sans-serif;
 }
 
 
-
+body { 
+  background: linear-gradient(to right, #2F2534, beige);
+}
 
 .img1 {
   object-position: relative;
