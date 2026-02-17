@@ -1,3 +1,6 @@
-background {
-  color:blue
+body { 
+ background-color: #174534;
+ background-image: linear-gradient(#174534, #01515C) ;
+ background-size: 100% 100%;
 }
+
