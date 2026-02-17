@@ -4,6 +4,26 @@ body {
  background-size: 100% 100%;
 }
 
-h1{
-color: green
+h1 {
+font-size: 60px;
+font-family: Impact, sans-serif;
+color: white;
+}
+
+h2 {
+font-size: 40px;
+font-family: Andale Mono, monospace;
+color: white;
+}
+
+h3 {
+font-size: 32px;
+font-family: Andale Mono, monospace;
+color: white;
+}
+
+p {
+font-size: 27px;
+font-family: Impact, sans-serif;
+color: white;
 }
