@@ -25,7 +25,7 @@ body {
  background-color: #ff7e5f;
  background-image: linear-gradient(#ff7e5f, #feb47b) ;
  background-size: 100% 100%;
- cursor: url('images/Shot.jpg.png'), auto;
+ cursor: url('../images/Shot.jpg.png'), auto;
 }
 
 header {
