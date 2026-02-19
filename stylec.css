@@ -1,1 +1,40 @@
+body { 
+ background-color: #174534;
+ background-image: linear-gradient(#174534, #01515C) ;
+ background-size: 100% 100%;
+}
 
+h1 {
+font-size: 50px;
+font-family: Impact, sans-serif;
+color: white;
+}
+
+h2 {
+font-size: 40px;
+font-family: Andale Mono, monospace;
+color: white;
+}
+
+h3 {
+font-size: 32px;
+font-family: Andale Mono, monospace;
+color: white;
+}
+
+p {
+font-size: 27px;
+font-family: Impact, sans-serif;
+color: white;
+}
+
+header {
+
+  background: #053026;
+  color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
