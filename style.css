@@ -1,7 +1,7 @@
 h1 {
 font-size: 60px;
 font-family: Impact, sans-serif;
-color: black;
+color: beige;
 }
 
 h2 {
@@ -37,7 +37,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  height:50px;
+  height:500px;
 }
 
 .img1 {
