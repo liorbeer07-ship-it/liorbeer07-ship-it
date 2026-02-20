@@ -41,3 +41,8 @@ header {
  height:150px;
   opacity: 0.97;
 }
+
+a:hover {
+        background-color: beige;
+        color: #ffa500;
+      }
