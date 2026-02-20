@@ -45,3 +45,7 @@ header {
   object-position: relative;
   top: 30px;
 }
+
+li {
+  cursor: pointer;
+}
