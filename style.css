@@ -47,5 +47,7 @@ header {
 }
 
 a:hover {
-  cursor: url("myimage.png"), pointer;
+ cursor: url("images/Shot.jpg.png"), pointer;
+ background-color: #ffa500;
+ color: #0000FF;
 }
