@@ -45,3 +45,8 @@ header {
   object-position: relative;
   top: 30px;
 }
+
+a:hover {
+        background-color: #999;
+        color: #ffcc00;
+      }
