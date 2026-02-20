@@ -45,9 +45,3 @@ header {
   object-position: relative;
   top: 30px;
 }
-
-li:hover {
-        cursor: url("images/Shot.jpg.png"), auto;
-        background-color: #999;
-        color: #ffcc00;
-      }
