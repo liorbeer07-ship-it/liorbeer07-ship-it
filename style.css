@@ -46,6 +46,6 @@ header {
   top: 30px;
 }
 
-li {
-  cursor: pointer;
+a:hover {
+  cursor: default;
 }
