@@ -22,7 +22,7 @@ font-family: Impact, sans-serif;
 }
 
 li {
- color: beige
+ color: beige;
 }
 
 body { 
@@ -48,6 +48,10 @@ header {
 .img1 {
   object-position: relative;
   top: 30px;
+}
+
+a{
+ color: beige;
 }
 
 a:hover {
