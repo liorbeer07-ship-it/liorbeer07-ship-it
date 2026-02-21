@@ -21,6 +21,10 @@ font-size: 27px;
 font-family: Impact, sans-serif;
 }
 
+li {
+ color: beige
+}
+
 body { 
  background-color: #ff7e5f;
  background-image: linear-gradient(#ff7e5f, #feb47b) ;
