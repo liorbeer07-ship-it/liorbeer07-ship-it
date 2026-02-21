@@ -19,7 +19,6 @@ color: white;
 h3 {
 font-size: 32px;
 font-family: Andale Mono, monospace;
-color: white;
 }
 
 p {
@@ -40,6 +39,10 @@ header {
   left: 0;
   height:150px;
   opacity: 0.97;
+}
+
+a{
+ color: beige;
 }
 
 a:hover {
