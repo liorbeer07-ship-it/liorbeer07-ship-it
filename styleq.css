@@ -1,0 +1,45 @@
+h1 {
+font-size: 50px;
+font-family: Impact, sans-serif;
+color: beige;
+}
+
+h2 {
+font-size: 40px;
+font-family: Andale Mono, monospace;
+color: beige;
+}
+
+h3 {
+font-size: 32px;
+font-family: Andale Mono, monospace;
+}
+
+p {
+font-size: 27px;
+font-family: Impact, sans-serif;
+}
+
+li {
+ color: beige;
+}
+
+body { 
+ background-color: #ff7e5f;
+ background-image: linear-gradient(#ff7e5f, #feb47b) ;
+ background-size: 100% 100%;
+ 
+}
+
+header {
+  background: #333;
+  color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height:150px;
+  opacity: 0.97;
+}
