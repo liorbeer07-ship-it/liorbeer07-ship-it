@@ -63,7 +63,8 @@ button {
   cursor: pointer;
   transition: background 0.2s;
 }
-
-span{
-  background: white;
+.qr{
+border: solid thin gray;
+ background-color: white;
+ border-radius:20px;
 }
