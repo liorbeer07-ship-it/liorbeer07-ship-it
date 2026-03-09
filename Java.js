@@ -13,5 +13,5 @@ function change()
 
 function question()
 {
-  
+  var radios1 =  document.getElementsByName('1');
 }
