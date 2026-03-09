@@ -5,6 +5,6 @@ function DireBonjour(x)
 nom=prompt('Quel est votre prénom svp ?');
 alert(DireBonjour(nom));
 
-function question1(){
+function question(){
   
 }
