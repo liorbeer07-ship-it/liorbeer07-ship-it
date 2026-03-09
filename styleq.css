@@ -51,3 +51,14 @@ input[type="radio"] {
   height: 20px;
   cursor: pointer;
 }
+
+
+button {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
