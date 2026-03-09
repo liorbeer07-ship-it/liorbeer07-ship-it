@@ -43,9 +43,13 @@ function question()
             valeur3 = radios3[i].value;
         }
     }
+    
     if((value1==toto & value2==toto) || (value2==toto & value3==toto) || (value1==toto & value3==toto))
     {
         
     }
-    else if((value1==toto & value2==toto) || (value2==toto & value3==toto) || (value1==toto & value3==toto))
+    else if((value1==titi & value2==titi) || (value2==titi & value3==titi) || (value1==titi & value3==titi))
+    {
+        
+    }
 }
