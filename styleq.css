@@ -27,7 +27,7 @@ li {
 body { 
  
  background-image: url("images/background_site.png") ;
- background-size: 400px;
+ background-size: 800px;
  
 }
 
@@ -62,3 +62,4 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: background 0.2s;
+}
