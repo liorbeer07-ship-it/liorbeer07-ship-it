@@ -7,7 +7,7 @@ alert(DireBonjour(nom));
 
 function change()
 {
-    v=prompt("Choisissez une couleur");
+    var v=prompt("Choisissez une couleur");
     document.body.style.backgroundColor = "v";
 }
 
