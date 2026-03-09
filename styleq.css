@@ -70,6 +70,12 @@ border: solid thin gray;
 padding:20px;
 }
 
+.hd{
+ font-size: 40px;
+font-family: Andale Mono, monospace;
+color: beige;
+}
+ 
 FORM{
  font-size: 22px;
 font-family: Impact, sans-serif;
