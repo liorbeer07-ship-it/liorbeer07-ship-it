@@ -43,3 +43,11 @@ header {
   height:150px;
   opacity: 0.97;
 }
+
+
+input[type="radio"] {
+  accent-color: #6c63ff;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
