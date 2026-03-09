@@ -46,7 +46,7 @@ function question()
     
     if((value1=="toto" && value2=="toto") || (value2=="toto" && value3=="toto") || (value1=="toto" && value3=="toto"))
     {
-        document.getElementById("LA").innerHTML="Vous êtes le verre oeuf cassé, par décret du roi !";
+        document.getElementById("LA").innerHTML=nom+", Vous êtes le verre oeuf cassé, par décret du roi !";
     }
     else if((value1=="titi" && value2=="titi") || (value2=="titi" && value3=="titi") || (value1=="titi" && value3=="titi"))
     {
