@@ -16,8 +16,9 @@ font-family: Andale Mono, monospace;
 }
 
 p {
-font-size: 22px;
+font-size: 32px;
 font-family: Impact, sans-serif;
+ color: white;
 }
 
 li {
@@ -85,3 +86,12 @@ font-family: Impact, sans-serif;
  background-color :black;
  border-radius:20px;
 }
+
+.wow{
+ background: radial-gradient(circle, rgba(42, 123, 155, 1) 0%, rgba(85, 196, 134, 1) 48%, rgba(87, 199, 133, 1) 50%, rgba(97, 201, 130, 1) 53%, rgba(237, 221, 83, 1) 100%);
+}
+
+
+
+
+
