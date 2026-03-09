@@ -5,8 +5,13 @@ function DireBonjour(x)
 nom=prompt('Quel est votre prénom svp ?');
 alert(DireBonjour(nom));
 
-function change(
+function change()
+{
+    v=prompt("Choisissez une couleur");
+    document.body.style.backgroundColor = "v";
+}
 
-function question(){
+function question()
+{
   
 }
