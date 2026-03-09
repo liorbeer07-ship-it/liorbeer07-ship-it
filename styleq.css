@@ -63,3 +63,7 @@ button {
   cursor: pointer;
   transition: background 0.2s;
 }
+
+span{
+  background: white;
+}
