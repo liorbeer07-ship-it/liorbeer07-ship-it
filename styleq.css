@@ -69,3 +69,8 @@ border: solid thin gray;
  border-radius:20px;
 padding:20px;
 }
+
+FORM{
+ font-size: 22px;
+font-family: Impact, sans-serif;
+}
