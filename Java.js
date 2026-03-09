@@ -60,4 +60,8 @@ function question()
     {
         document.getElementById("LA").innerHTML=nom+", Vous ne connaissez pas l'existence des verres, par conséquent, vous êtes un ver de terre !";
     }
+    else
+    {
+        document.getElementById("LA").innerHTML=nom+", Vous êtes le verre en verre le plus vert que tous les vers aient vu vers ici de tout l'hiver !";
+    }
 }
