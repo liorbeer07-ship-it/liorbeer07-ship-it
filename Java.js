@@ -65,3 +65,11 @@ function question()
         document.getElementById("LA").innerHTML=nom+", Vous êtes le verre en verre le plus vert que tous les vers aient vu vers ici de tout l'hiver !";
     }
 }
+
+funtion question1(x)
+{
+    if(x == "Le verre trou")
+    {
+        
+    }
+}
