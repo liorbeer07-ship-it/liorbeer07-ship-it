@@ -66,10 +66,4 @@ function question()
     }
 }
 
-function question1(x)
-{
-    if(x == "Le verre trou")
-    {
-        
-    }
-}
+
