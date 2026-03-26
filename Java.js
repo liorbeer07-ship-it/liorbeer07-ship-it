@@ -66,7 +66,7 @@ function question()
     }
 }
 
-funtion question1(x)
+function question1(x)
 {
     if(x == "Le verre trou")
     {
