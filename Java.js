@@ -64,10 +64,10 @@ function question()
     {
         document.getElementById("LA").innerHTML=nom+", Vous êtes le verre en verre le plus vert que tous les vers aient vu vers ici de tout l'hiver !";
     }
-
-
-    document.getElementById('validre').innerHTML = "Recommencer";
+    
+    //(j'ai mis ce code en note pour pas qu'il bloquele reste si il marche pas) : document.getElementById('validre').innerHTML = "<button type="button" onclick="question()"> Recommencer </button>";
 }
+
 
 function pick()
 {
