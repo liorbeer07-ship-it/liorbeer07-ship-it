@@ -68,3 +68,8 @@ function question()
 
     document.getElementById('validre').innerHTML = "Recommencer";
 }
+
+function pick()
+{
+    
+}
