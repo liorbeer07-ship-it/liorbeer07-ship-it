@@ -66,7 +66,8 @@ function question()
     }
 
 
-    document.getElementById('validre').innerHTML= <button type="button" onclick="recommencer()"> Recommencer </button>
+    document.getElementById('validre').innerHTML= <button type="button" onclick="recommencer()"> Recommencer </button>;
+    document.body.style.backgroundColor = green;
 }
 
 function recommencer()
