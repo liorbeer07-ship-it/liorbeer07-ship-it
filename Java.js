@@ -84,5 +84,15 @@ function recommencer()
 
 function pick()
 {
-    
+    const check1 =  document.getElementsByName('case1');
+    const check2 =  document.getElementsByName('case2');
+    const check3 =  document.getElementsByName('case3');
+
+    for(var i = 0; i < radios1.length; i++)
+    {
+        if(radios1[i].checked)
+        {
+            value1 = radios1[i].value;
+        }
+    }
 }
