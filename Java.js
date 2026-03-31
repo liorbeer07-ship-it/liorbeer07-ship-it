@@ -74,6 +74,10 @@ function question()
 function recommencer()
 {
     location.reload
+    const btn = document.getElementById("valider");
+    btn.style.backgroundColor = "white";
+    btn.style.border = "2px solid black";
+    btn.style.color = "black";
 }
 
 
