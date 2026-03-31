@@ -117,8 +117,10 @@
 
 </center>
 </div>
+  
 <br>
 <br>
+  
 <div class="qr">  
 <center><h2>Votre nappe est tachée. C'est...</h2></center>
 
@@ -133,6 +135,7 @@
 
  <input type="radio" name="3" id="choix2" value="tata" />
  <label for="choix2" >La preuve que vous vivez vraiment  </label>
+  
 <br>
 
  <input type="radio" name="3" id="choix3" value="titi" />
@@ -160,40 +163,71 @@
   
   <div class=eta> 3e et dernière étape : Quiz sur tout le site ! :</div>
 
+<div class="qr"> 
+<center><h2>Quels chiffres, lorsque additionnés, donne le prix du verre bleu très cher ?</h2></center>
+
+  <br>
+  
 <center>
-    <center><h2>Quels chiffres, lorsque additionnés, donne le prix du verre bleu très cher ?</h2></center>
-    <input type="checkbox" name="cases" value="red" id="red"/>
+
+    <input type="checkbox" name="case1" value="1" id="1"/>
     <label>250 + 1750</label>
-    <input type="checkbox" name="cases" value="yellow" id="yellow"/>
-    <label>3000 + 50</label>
-    <input type="checkbox" name="cases" value="blue" id="blue"/>
-    <label>10000000 - 9999999</label>
-    <input type="button" value="Valider" onclick="pick()"/>
-</center>
   
+    <input type="checkbox" name="case1" value="2" id="2"/>
+    <label>3000 + 50</label>
+  
+    <input type="checkbox" name="case1" value="3" id="3"/>
+    <label>10000000 - 9999999</label>
+
+    <input type="checkbox" name="case4" value="4" id="4"/>
+    <label>0.6 + 95.3 + 4.1 + 3900</label>
+  
+    <br>
+  
+    <input type="button" value="Valider" onclick="pick()"/>
+  
+</center>
+</div>
+  
+  <br>
   
 <center>
-<table border="4" cellspacing="1" cellpadding="1" width="50%"  text-align:center>
+
+<div class="qr"> 
+<table border="0" cellspacing="50" cellpadding="20" width="100%"  text-align:center>
   
 <tr>
     <th><h2>Qu'y a-t-il de dans la partie floutée de ce verre ?</h2></th>
-    <th><img src="images/verre_toilette.png"/></th>
+    <th><img src="images/verre_toilette.png" /></th>
 </tr>
 
 </table>
 </center>
+
+  <br>
   
   <center>
-    <input type="checkbox" name="cases" value="red" id="red"/>
-    <label>250 + 1750</label>
-    <input type="checkbox" name="cases" value="yellow" id="yellow"/>
-    <label>3000 + 50</label>
-    <input type="checkbox" name="cases" value="blue" id="blue"/>
-    <label>10000000 - 9999999</label>
-    <input type="button" value="Valider" onclick="pick()"
-  </center>
     
-  <p id="rate"></p>
+    <input type="checkbox" name="case1" value="1" id="1"/>
+    <label>Une scène décente</label>
+
+    <input type="checkbox" name="case2" value="2" id="2"/>
+    <label>Un garçon</label>
+    
+    <input type="checkbox" name="case3" value="3" id="3"/>
+    <label>La folie incarnée</label>
+
+    <input type="checkbox" name="case4" value="4" id="4"/>
+    <label>...c'est jaune...on ne peut pas en dire pus...</label>
+    
+    <br>
+    
+    <input type="button" value="Valider" onclick="pick()">
+      
+  </center>
+</div>
+  
+ <center><div class=wow><p id="la"></p></div></center>
 
 
 
@@ -201,7 +235,3 @@
 
 </body>
 </html>
-
-
-
-
