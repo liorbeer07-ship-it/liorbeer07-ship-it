@@ -66,5 +66,5 @@ function question()
     }
 
 
-    document.getElementById('validre').innerHTML = "Recommencer"
+    document.getElementById('validre').innerHTML = "<button type="button" onclick="question()"> Recommencer </button>";
 }
