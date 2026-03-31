@@ -67,17 +67,18 @@ function question()
     const btn = document.getElementById("valider");
     btn.textContent = "Recommencer";
     btn.onclick = recommencer; // change la fonction au clic suivant
+    const btn = document.getElementById("valider");
+    btn.style.backgroundColor = "white";
+    btn.style.border = "2px solid black";
+    btn.style.color = "black";
     //(j'ai mis ce code en note pour pas qu'il bloquele reste si il marche pas) : document.getElementById('validre').innerHTML = "<button type="button" onclick="question()"> Recommencer </button>";
 }
 
 
 function recommencer()
 {
-    location.reload
-    const btn = document.getElementById("valider");
-    btn.style.backgroundColor = "white";
-    btn.style.border = "2px solid black";
-    btn.style.color = "black";
+    window.location.href = "https://liorbeer07-ship-it.github.io/liorbeer07-ship-it/QUIZ.html";
+    
 }
 
 
