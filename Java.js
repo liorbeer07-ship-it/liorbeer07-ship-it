@@ -67,7 +67,7 @@ function question()
     }
     const btn = document.getElementById("valider");
     btn.textContent = "Recommencer";
-    btn.onclick = question; // change la fonction au clic suivant
+
     
     btn.style.backgroundColor = "white";
     btn.style.border = "2px solid black";
