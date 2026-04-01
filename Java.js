@@ -285,3 +285,12 @@ function opene()
     } 
 bouton_fin();
 }
+
+
+function selection()
+{
+    const selecteur = document.getElementById("choix");
+	const monChoix=selecteur[selecteur.selectedIndex];
+    
+}
+
