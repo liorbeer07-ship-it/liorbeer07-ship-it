@@ -65,12 +65,7 @@ function question()
     {
         document.getElementById("LA").innerHTML=nom+", Vous êtes le verre en verre le plus vert que tous les vers aient vu vers ici de tout l'hiver !";
     }
-    const btn = document.getElementById("valider");
-    btn.textContent = "Recommencer";
-    
-    btn.style.backgroundColor = "white";
-    btn.style.border = "2px solid black";
-    btn.style.color = "black";
+
 }
 
 
