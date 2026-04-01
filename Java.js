@@ -255,9 +255,9 @@ function bouton_fin()
 		btn2.textContent="Voir les résultats";
 		btn2.onclick=resultats;
 		document.getElementById("resultshere").appendChild(btn2);
-		btn.style.border="2px solid white";
-		btn.background="#CC27F5";
-		btn.style.color = "white";
+		btn2.style.border="2px solid white";
+		btn2.background="#CC27F5";
+		btn2.style.color = "white";
     }
 }
 
