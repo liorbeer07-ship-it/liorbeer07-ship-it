@@ -1,9 +1,10 @@
+nom=prompt('Quel est votre prénom svp ?');
+alert(DireBonjour(nom));
+
 function DireBonjour(x)
 {
     return ('Bonjour ' + x+',nous allons découvrir quel type de verre vous êtes !');
 }
-nom=prompt('Quel est votre prénom svp ?');
-alert(DireBonjour(nom));
 
 function change()
 {
@@ -86,12 +87,77 @@ function pick()
     const check1 =  document.getElementsByName('case1');
     const check2 =  document.getElementsByName('case2');
     const check3 =  document.getElementsByName('case3');
+    var p = 0
 
-    for(var i = 0; i < radios1.length; i++)
+    
+    if(check1[0].checked)
     {
-        if(radios1[i].checked)
-        {
-            value1 = radios1[i].value;
-        }
+        p += 1;
     }
+    if(check1[3].checked)
+    {
+        p += 1;
+    }
+    if(p==0)
+    {
+        document.getElementById("l1a").innerHTML="Dommage, vous avez 0 bonnes réponses sur 2. Les bonnes réponses étaient : <b>250 + 1750</b> et <b>0.6 + 95.3 + 4.1 + 3900</b>"
+    }
+    else if(p==1)
+    {
+        document.getElementById("l1a").innerHTML="Presque, vous avez 1 bonnes réponse sur 2. Les bonnes réponses étaient : <b>250 + 1750</b> et <b>0.6 + 95.3 + 4.1 + 3900</b>"
+    }
+    else if(p==2)
+    {
+        document.getElementById("l1a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses."
+    }
+    p = 0
+
+
+    
+    if(check2[1].checked)
+    {
+        p += 1;
+    }
+    if(check2[3].checked)
+    {
+        p += 1;
+    }
+    if(p==0)
+    {
+        document.getElementById("l2a").innerHTML="Dommage, vous avez 0 bonnes réponses sur 2. Les bonnes réponses étaient : <b>Un garçon</b> et <b>...c'est jaune...on ne peut pas en dire pus...</b>"
+    }
+    else if(p==1)
+    {
+        document.getElementById("l2a").innerHTML="Presque, vous avez 1 bonnes réponses sur 2. Les bonnes réponses étaient : <b>Un garçon</b> et <b>...c'est jaune...on ne peut pas en dire pus...</b>"
+    }
+    else if(p==2)
+    {
+        document.getElementById("l2a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2."
+    }
+    p = 0
+
+
+
+    if(check3[2].checked)
+    {
+        p += 1;
+    }
+    if(check1[3].checked)
+    {
+        p += 1;
+    }
+    if(p==0)
+    {
+        document.getElementById("l3a").innerHTML="Dommage, vous avez 0 bonne réponse sur 2. Les bonnes réponses étaient : <b>Qui va l'acheter de toute façon ?</b> et <b>60%</b>"
+    }
+    else if(p==1)
+    {
+        document.getElementById("l3a").innerHTML="Presque, vous avez 1 bonnes réponses sur 2. Les bonnes réponses étaient : <b>Qui va l'acheter de toute façon ?</b> et <b>60%</b>"
+    }
+    else if(p==2)
+    {
+        document.getElementById("l3a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2."
+    }
+    p = 0
+    
 }
