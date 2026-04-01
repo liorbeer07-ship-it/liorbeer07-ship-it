@@ -72,7 +72,7 @@ function question()
     const btn = document.getElementById("valider");
     btn.textContent = "Recommencer";
 
-    
+    btn.onclick=recommencer;
     btn.style.backgroundColor = "white";
     btn.style.border = "2px solid black";
     btn.style.color = "black";
