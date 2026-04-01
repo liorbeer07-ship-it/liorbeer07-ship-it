@@ -67,6 +67,7 @@ function question()
     }
     const btn = document.getElementById("valider");
     btn.textContent = "Recommencer";
+    btn.onclick = question; // change la fonction au clic suivant
     
     btn.style.backgroundColor = "white";
     btn.style.border = "2px solid black";
@@ -109,12 +110,6 @@ function pick()
     {
         document.getElementById("l1a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses."
     }
-    const btn = document.getElementById("valider_1");
-    btn.textContent = "Recommencer";
-    
-    btn.style.backgroundColor = "white";
-    btn.style.border = "2px solid black";
-    btn.style.color = "black";
     
     p = 0;
 
@@ -140,12 +135,6 @@ function pick()
     {
         document.getElementById("l2a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2."
     }
-    const btn = document.getElementById("valider_2");
-    btn.textContent = "Recommencer";
-    
-    btn.style.backgroundColor = "white";
-    btn.style.border = "2px solid black";
-    btn.style.color = "black";
     
     p = 0;
 
@@ -171,12 +160,6 @@ function pick()
     {
         document.getElementById("l3a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2."
     }
-    const btn = document.getElementById("valider_3");
-    btn.textContent = "Recommencer";
-    
-    btn.style.backgroundColor = "white";
-    btn.style.border = "2px solid black";
-    btn.style.color = "black";
     
     p = 0;
 }
