@@ -106,5 +106,8 @@ font-family: Andale Mono, monospace;
  background-color:white;
 }
 
-
+#choix {
+  font-size: 20px;
+  padding: 10px 15px;
+}
 
