@@ -1,6 +1,8 @@
 nom=prompt('Quel est votre prénom svp ?');
 alert(DireBonjour(nom));
 
+
+var nbquestionsfin=0;
 function DireBonjour(x)
 {
     return ('Bonjour ' + x+',nous allons découvrir quel type de verre vous êtes !');
@@ -112,6 +114,10 @@ function pick_1()
     }
     
     un = 0;
+    nbquestionsfin+=1;
+    document.getElementById("valider_1").style.display = "none";
+    bouton_fin();
+    
 }
 
 
@@ -144,6 +150,9 @@ function pick_2()
     }
     
     deux = 0;
+    nbquestionsfin+=1;
+    document.getElementById("valider_2").style.display = "none";
+    bouton_fin();
 }
 
 function pick_3()
@@ -174,10 +183,29 @@ function pick_3()
     }
     
     trois = 0;
+    nbquestionsfin+=1;
+    document.getElementById("valider_3").style.display = "none";
+    bouton_fin();
 }
 
 
+function bouton_fin
+{
+    if (nbquestionsfin==3)
+    {
+        const btn = document.createElement("button");
+        btn.textContent = "Recommencer";
+        btn.onclick = recommencer;
+        document.body.appendChild(btn);
+        btn.style.backgroundColor = "white";
+        btn.style.border = "2px solid black";
+        btn.style.color = "black";
 
+    }
+}
+
+
+    
 
 
 /*function opene()
