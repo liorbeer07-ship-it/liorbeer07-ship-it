@@ -164,7 +164,7 @@ function pick()
     p = 0;
 }
 
-function open()
+/*function open()
 {
     const t = document.getElementById("Id_Reponse");
     const texte = t.value;
@@ -182,4 +182,4 @@ function open()
         document.getElementById("lala").innerHTML = "Non, dommage ! Vous y êtes preque !";
     } 
 
-}
+}*/
