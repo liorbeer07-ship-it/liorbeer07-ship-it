@@ -85,8 +85,6 @@ function recommencer()
 function pick_1()
 {
     const check1 =  document.getElementsByName('case1');
-    const check2 =  document.getElementsByName('case2');
-    const check3 =  document.getElementsByName('case3');
     
     var un = 0;
 
@@ -118,9 +116,7 @@ function pick_1()
 
 function pick_2()
 {
-    const check1 =  document.getElementsByName('case1');
     const check2 =  document.getElementsByName('case2');
-    const check3 =  document.getElementsByName('case3');
     
     var deux = 0;
     
@@ -150,8 +146,6 @@ function pick_2()
 
 function pick_3()
 {
-    const check1 =  document.getElementsByName('case1');
-    const check2 =  document.getElementsByName('case2');
     const check3 =  document.getElementsByName('case3');
     
     var trois = 0;
