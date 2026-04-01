@@ -167,7 +167,7 @@ function pick()
     trois = 0;
 }
 
-/*function open()
+/*function opene()
 {
     const t = document.getElementById("Id_Reponse");
     const texte = t.value;
