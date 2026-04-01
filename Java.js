@@ -3,6 +3,8 @@ alert(DireBonjour(nom));
 
 
 var nbquestionsfin=0;
+var pointsquiz=0;
+
 function DireBonjour(x)
 {
     return ('Bonjour ' + x+',nous allons découvrir quel type de verre vous êtes !');
@@ -94,10 +96,20 @@ function pick_1()
     if(check1[0].checked)
     {
         un += 1;
+        pointsquiz+=1;
+    }
+    if(check1[1].checked)
+    {
+        pointsquiz += -2;
+    }
+    if(check1[2].checked)
+    {
+        pointsquiz += -2;
     }
     if(check1[3].checked)
     {
         un += 1;
+        pointsquiz +=1;
     }
     if(un==0)
     {
@@ -127,13 +139,23 @@ function pick_2()
     
     var deux = 0;
     
+    if(check2[0].checked)
+    {
+        pointsquiz += -2;
+    }
     if(check2[1].checked)
     {
         deux += 1;
+        pointsquiz+= 1;
+    }
+    if(check2[2].checked)
+    {
+        pointsquiz += -2;
     }
     if(check2[3].checked)
     {
         deux += 1;
+        pointsquiz+= 1;
     }
     if(deux==0)
     {
@@ -160,13 +182,23 @@ function pick_3()
     const check3 =  document.getElementsByName('case3');
     
     var trois = 0;
+    if(check3[0].checked)
+    {
+        pointsquiz += -2;
+    }
+    if(check3[1].checked)
+    {
+        pointsquiz += -2;
+    }
     if(check3[2].checked)
     {
         trois += 1;
+        pointsquiz+= 1;
     }
     if(check3[3].checked)
     {
         trois += 1;
+        pointsquiz+= 1;
     }
     if(trois==0)
     {
