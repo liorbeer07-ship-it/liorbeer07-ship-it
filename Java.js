@@ -82,15 +82,13 @@ function recommencer()
 }
 
 
-function pick()
+function pick_1()
 {
     const check1 =  document.getElementsByName('case1');
     const check2 =  document.getElementsByName('case2');
     const check3 =  document.getElementsByName('case3');
     
     var un = 0;
-    var deux = 0;
-    var trois = 0;
 
     
     if(check1[0].checked)
@@ -115,8 +113,16 @@ function pick()
     }
     
     un = 0;
+}
 
 
+function pick_2()
+{
+    const check1 =  document.getElementsByName('case1');
+    const check2 =  document.getElementsByName('case2');
+    const check3 =  document.getElementsByName('case3');
+    
+    var deux = 0;
     
     if(check2[1].checked)
     {
@@ -140,9 +146,15 @@ function pick()
     }
     
     deux = 0;
+}
 
-
-
+function pick_3()
+{
+    const check1 =  document.getElementsByName('case1');
+    const check2 =  document.getElementsByName('case2');
+    const check3 =  document.getElementsByName('case3');
+    
+    var trois = 0;
     if(check3[2].checked)
     {
         trois += 1;
@@ -166,6 +178,10 @@ function pick()
     
     trois = 0;
 }
+
+
+
+
 
 /*function opene()
 {
