@@ -101,10 +101,12 @@ function pick_1()
     if(check1[1].checked)
     {
         pointsquiz += -2;
+        un += -10;
     }
     if(check1[2].checked)
     {
         pointsquiz += -2;
+        un += -10;
     }
     if(check1[3].checked)
     {
@@ -124,6 +126,10 @@ function pick_1()
         document.getElementById("l1a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses.";
         confetti();
     }
+    else if(un<0)
+    {
+        document.getElementById("l1a").innerHTML="Vous avez une ou plusieurs réponses fausses ! Les bonnes réponses étaient : <b>250 + 1750</b> et <b>0.6 + 95.3 + 4.1 + 3900</b> ";
+    }
     
     un = 0;
     nbquestionsfin+=1;
@@ -142,6 +148,7 @@ function pick_2()
     if(check2[0].checked)
     {
         pointsquiz += -2;
+        deux+=-10;
     }
     if(check2[1].checked)
     {
@@ -151,6 +158,7 @@ function pick_2()
     if(check2[2].checked)
     {
         pointsquiz += -2;
+        deux+=-10;
     }
     if(check2[3].checked)
     {
@@ -163,14 +171,17 @@ function pick_2()
     }
     else if(deux==1)
     {
-        document.getElementById("l2a").innerHTML="Presque, vous avez 1 bonnes réponses sur 2. Les bonnes réponses étaient : <b>Un garçon</b> et <b>...c'est jaune...on ne peut pas en dire pus...</b>";
+        document.getElementById("l2a").innerHTML="Presque, vous avez 1 bonnes réponses sur 2. Les bonnes réponses étaient : <b>Un garçon</b> et <b>...c'est jaune...on ne peut pas en dire plus...</b>";
     }
     else if(deux==2)
     {
         document.getElementById("l2a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2.";
         confetti();
     }
-    
+    else if(deux<0)
+    {
+        document.getElementById("l2a").innerHTML="Vous avez une ou plusieurs réponses fausses ! Les bonnes réponses étaient : <b>Un garçon</b> et <b>...c'est jaune...on ne peut pas en dire plus...</b>";
+    }
     deux = 0;
     nbquestionsfin+=1;
     document.getElementById("valider_2").style.display = "none";
@@ -185,10 +196,12 @@ function pick_3()
     if(check3[0].checked)
     {
         pointsquiz += -2;
+        trois+=-10;
     }
     if(check3[1].checked)
     {
         pointsquiz += -2;
+        trois+=-10;
     }
     if(check3[2].checked)
     {
@@ -213,6 +226,11 @@ function pick_3()
         document.getElementById("l3a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2.";
         confetti();
     }
+    else if(trois<0)
+    {
+        document.getElementById("l3a").innerHTML="Vous avez une ou plusieurs réponses fausses ! Les bonnes réponses étaient : <b>Qui va l'acheter de toute façon ?</b> et <b>60%</b>";
+    }
+    
     
     trois = 0;
     nbquestionsfin+=1;
