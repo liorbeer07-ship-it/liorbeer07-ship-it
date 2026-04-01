@@ -253,9 +253,11 @@ function bouton_fin()
 
 		const btn2 = document.createElement("button");
 		btn2.textContent="Voir les résultats";
-		btn.onclick=resultats();
-		
-
+		btn2.onclick=resultats();
+		document.getElementById("resultshere").appendChild(btn2);
+		btn.style.border="2px solid white";
+		btn.background="#CC27F5";
+		btn.style.color = "white";
     }
 }
 
