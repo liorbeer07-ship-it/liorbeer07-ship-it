@@ -241,15 +241,20 @@ function pick_3()
 
 function bouton_fin()
 {
-    if (nbquestionsfin==3)
+    if (nbquestionsfin==5)
     {
         const btn = document.createElement("button");
         btn.textContent = "Recommencer";
         btn.onclick = recommencer;
-        document.body.appendChild(btn);
+        document.getElementById("restarthere").appendChild(btn);
         btn.style.backgroundColor = "white";
         btn.style.border = "2px solid black";
         btn.style.color = "black";
+
+		const btn2 = document.createElement("button");
+		btn2.textContent="Voir les résultats";
+		btn.onclick=resultats();
+		
 
     }
 }
@@ -291,6 +296,30 @@ function selection()
 {
     const selecteur = document.getElementById("choix");
 	const monChoix=selecteur[selecteur.selectedIndex];
-    
+    if (monChoix.value=="no")
+	{
+		document.getElementById("latablee").innerHTML = "Veuillez choisir une réponse";
+	}
+	else if(monChoix.value=="ze")
+	{
+		document.getElementById("latablee").innerHTML = "Vous n'avez pas tort...";
+		nbquestionsfin+=1
+		document.getElementById("valider_tables").style.display = "none";
+		pointsquiz+=2;
+	}
+	else if(monChoix.value=="tr")
+	{
+		document.getElementById("latablee").innerHTML = "Faux ! Un petit tour sur la partie Tables s'impose...";
+		nbquestionsfin+=1
+		document.getElementById("valider_tables").style.display = "none";
+	}
+	else if(monChoix.value=="ci")
+	{
+		document.getElementById("latablee").innerHTML = "Bravo bonne réponse !";
+		nbquestionsfin+=1
+		document.getElementById("valider_tables").style.display = "none";
+		pointsquiz+=2
+	}
+bouton_fin()
 }
 
