@@ -67,7 +67,6 @@ function question()
     }
     const btn = document.getElementById("valider");
     btn.textContent = "Recommencer";
-    btn.onclick = question; // change la fonction au clic suivant
     
     btn.style.backgroundColor = "white";
     btn.style.border = "2px solid black";
@@ -112,7 +111,6 @@ function pick()
     }
     const btn = document.getElementById("valider_1");
     btn.textContent = "Recommencer";
-    btn.onclick = question; // change la fonction au clic suivant
     
     btn.style.backgroundColor = "white";
     btn.style.border = "2px solid black";
@@ -144,7 +142,6 @@ function pick()
     }
     const btn = document.getElementById("valider_2");
     btn.textContent = "Recommencer";
-    btn.onclick = question; // change la fonction au clic suivant
     
     btn.style.backgroundColor = "white";
     btn.style.border = "2px solid black";
@@ -176,7 +173,6 @@ function pick()
     }
     const btn = document.getElementById("valider_3");
     btn.textContent = "Recommencer";
-    btn.onclick = question; // change la fonction au clic suivant
     
     btn.style.backgroundColor = "white";
     btn.style.border = "2px solid black";
@@ -187,25 +183,24 @@ function pick()
 
 function open()
 {
-    const t = document.getElementById("Id_Reponse")
-    const texte = t.value
+    const t = document.getElementById("Id_Reponse");
+    const texte = t.value;
     
-    if(texte==="")
+    if(texte===" ")
     {
-        document.getElementById("lala").innerHTML = "Veuillez écrire une marque."
+        document.getElementById("lala").innerHTML = "Veuillez écrire une marque.";
     }
-    elise if (texte.lower()==="dior")
+    elise if (texte.toLowerCase()==="dior")
     {
-        document.getElementById("lala").innerHTML = "Oui ! Bravo ! Vous avez trouvez la bonne réponse !"
+        document.getElementById("lala").innerHTML = "Oui ! Bravo ! Vous avez trouvez la bonne réponse !";
     }
-    elise if (texte.lower()!=="dior")
+    elise if (texte.toLowerCase()!=="dior")
     {
-        document.getElementById("lala").innerHTML = "Non, dommage ! Vous y êtes preque !"
+        document.getElementById("lala").innerHTML = "Non, dommage ! Vous y êtes preque !";
     }
     
     const btn = document.getElementById("valider_1_1");
     btn.textContent = "Recommencer";
-    btn.onclick = question; // change la fonction au clic suivant
     
     btn.style.backgroundColor = "white";
     btn.style.border = "2px solid black";
