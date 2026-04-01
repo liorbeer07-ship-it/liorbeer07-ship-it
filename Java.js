@@ -189,7 +189,7 @@ function pick_3()
 }
 
 
-function bouton_fin
+function bouton_fin()
 {
     if (nbquestionsfin==3)
     {
