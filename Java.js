@@ -261,7 +261,26 @@ function bouton_fin()
     }
 }
 
-
+function resultats()
+{
+	document.getElementById("note").innerHTML = pointsquiz+"/10";
+	if (pointsquiz<5)
+	{
+		document.getElementById("lesresultats").innerHTML = "C'est pas fou";
+	}
+	else if (pointsquiz==10)
+	{
+		document.getElementById("lesresultats").innerHTML = "C'est parfait Bravo !";
+	}
+	else if (pointsquiz<0)
+	{
+		document.getElementById("lesresultats").innerHTML = "Un score négatif ??? Vraiment ? Retournez sur notre site !";
+	}
+	else
+	{
+		document.getElementById("lesresultats").innerHTML = "C'est pas mal du tout!";
+	}
+}
     
 
 
