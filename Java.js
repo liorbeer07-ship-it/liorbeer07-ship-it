@@ -258,22 +258,24 @@ function bouton_fin()
     
 
 
-/*function opene()
+function opene()
 {
     const t = document.getElementById("Id_Reponse");
     const texte = t.value;
     
-    if(texte===" ")
+    if(texte=="")
     {
         document.getElementById("lala").innerHTML = "Veuillez écrire une marque.";
     }
-    elise if (texte.toLowerCase()==="dior")
+    else if (texte.toLowerCase()==="dior")
     {
         document.getElementById("lala").innerHTML = "Oui ! Bravo ! Vous avez trouvez la bonne réponse !";
+        t.disabled=true;
     }
-    elise if (texte.toLowerCase()!=="dior")
+    else if (texte.toLowerCase()!=="dior")
     {
-        document.getElementById("lala").innerHTML = "Non, dommage ! Vous y êtes preque !";
+        document.getElementById("lala").innerHTML = "Non, dommage ! Vous y êtes presque !";
+        t.disabled=true;
     } 
 
-}*/
+}
