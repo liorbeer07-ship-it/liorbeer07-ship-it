@@ -99,15 +99,16 @@ function pick_1()
     }
     if(un==0)
     {
-        document.getElementById("l1a").innerHTML="Dommage, vous avez 0 bonnes réponses sur 2. Les bonnes réponses étaient : <b>250 + 1750</b> et <b>0.6 + 95.3 + 4.1 + 3900</b>"
+        document.getElementById("l1a").innerHTML="Dommage, vous avez 0 bonnes réponses sur 2. Les bonnes réponses étaient : <b>250 + 1750</b> et <b>0.6 + 95.3 + 4.1 + 3900</b>";
     }
     else if(un==1)
     {
-        document.getElementById("l1a").innerHTML="Presque, vous avez 1 bonnes réponse sur 2. Les bonnes réponses étaient : <b>250 + 1750</b> et <b>0.6 + 95.3 + 4.1 + 3900</b>"
+        document.getElementById("l1a").innerHTML="Presque, vous avez 1 bonnes réponse sur 2. Les bonnes réponses étaient : <b>250 + 1750</b> et <b>0.6 + 95.3 + 4.1 + 3900</b>";
     }
     else if(un==2)
     {
-        document.getElementById("l1a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses."
+        document.getElementById("l1a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses.";
+        confetti();
     }
     
     un = 0;
@@ -130,15 +131,16 @@ function pick_2()
     }
     if(deux==0)
     {
-        document.getElementById("l2a").innerHTML="Dommage, vous avez 0 bonnes réponses sur 2. Les bonnes réponses étaient : <b>Un garçon</b> et <b>...c'est jaune...on ne peut pas en dire pus...</b>"
+        document.getElementById("l2a").innerHTML="Dommage, vous avez 0 bonnes réponses sur 2. Les bonnes réponses étaient : <b>Un garçon</b> et <b>...c'est jaune...on ne peut pas en dire pus...</b>";
     }
     else if(deux==1)
     {
-        document.getElementById("l2a").innerHTML="Presque, vous avez 1 bonnes réponses sur 2. Les bonnes réponses étaient : <b>Un garçon</b> et <b>...c'est jaune...on ne peut pas en dire pus...</b>"
+        document.getElementById("l2a").innerHTML="Presque, vous avez 1 bonnes réponses sur 2. Les bonnes réponses étaient : <b>Un garçon</b> et <b>...c'est jaune...on ne peut pas en dire pus...</b>";
     }
     else if(deux==2)
     {
-        document.getElementById("l2a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2."
+        document.getElementById("l2a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2.";
+        confetti();
     }
     
     deux = 0;
@@ -159,15 +161,16 @@ function pick_3()
     }
     if(trois==0)
     {
-        document.getElementById("l3a").innerHTML="Dommage, vous avez 0 bonne réponse sur 2. Les bonnes réponses étaient : <b>Qui va l'acheter de toute façon ?</b> et <b>60%</b>"
+        document.getElementById("l3a").innerHTML="Dommage, vous avez 0 bonne réponse sur 2. Les bonnes réponses étaient : <b>Qui va l'acheter de toute façon ?</b> et <b>60%</b>";
     }
     else if(trois==1)
     {
-        document.getElementById("l3a").innerHTML="Presque, vous avez 1 bonnes réponses sur 2. Les bonnes réponses étaient : <b>Qui va l'acheter de toute façon ?</b> et <b>60%</b>"
+        document.getElementById("l3a").innerHTML="Presque, vous avez 1 bonnes réponses sur 2. Les bonnes réponses étaient : <b>Qui va l'acheter de toute façon ?</b> et <b>60%</b>";
     }
     else if(trois==2)
     {
-        document.getElementById("l3a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2."
+        document.getElementById("l3a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2.";
+        confetti();
     }
     
     trois = 0;
