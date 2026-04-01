@@ -155,7 +155,7 @@ function pick_3()
     {
         trois += 1;
     }
-    if(check1[3].checked)
+    if(check3[3].checked)
     {
         trois += 1;
     }
