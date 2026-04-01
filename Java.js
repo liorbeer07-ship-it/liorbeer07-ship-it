@@ -110,7 +110,15 @@ function pick()
     {
         document.getElementById("l1a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses."
     }
-    p = 0
+    const btn = document.getElementById("valider_1");
+    btn.textContent = "Recommencer";
+    btn.onclick = question; // change la fonction au clic suivant
+    
+    btn.style.backgroundColor = "white";
+    btn.style.border = "2px solid black";
+    btn.style.color = "black";
+    
+    p = 0;
 
 
     
@@ -134,7 +142,15 @@ function pick()
     {
         document.getElementById("l2a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2."
     }
-    p = 0
+    const btn = document.getElementById("valider_2");
+    btn.textContent = "Recommencer";
+    btn.onclick = question; // change la fonction au clic suivant
+    
+    btn.style.backgroundColor = "white";
+    btn.style.border = "2px solid black";
+    btn.style.color = "black";
+    
+    p = 0;
 
 
 
@@ -158,6 +174,40 @@ function pick()
     {
         document.getElementById("l3a").innerHTML="Bravo ! Vous avez les 2 bonnes réponses sur 2."
     }
-    p = 0
+    const btn = document.getElementById("valider_3");
+    btn.textContent = "Recommencer";
+    btn.onclick = question; // change la fonction au clic suivant
     
+    btn.style.backgroundColor = "white";
+    btn.style.border = "2px solid black";
+    btn.style.color = "black";
+    
+    p = 0;
+}
+
+function open()
+{
+    const t = document.getElementById("Id_Reponse")
+    const texte = t.value
+    
+    if(texte==="")
+    {
+        document.getElementById("lala").innerHTML = "Veuillez écrire une marque."
+    }
+    elise if (texte.lower()==="dior")
+    {
+        document.getElementById("lala").innerHTML = "Oui ! Bravo ! Vous avez trouvez la bonne réponse !"
+    }
+    elise if (texte.lower()!=="dior")
+    {
+        document.getElementById("lala").innerHTML = "Non, dommage ! Vous y êtes preque !"
+    }
+    
+    const btn = document.getElementById("valider_1_1");
+    btn.textContent = "Recommencer";
+    btn.onclick = question; // change la fonction au clic suivant
+    
+    btn.style.backgroundColor = "white";
+    btn.style.border = "2px solid black";
+    btn.style.color = "black";
 }
