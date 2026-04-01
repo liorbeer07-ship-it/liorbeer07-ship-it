@@ -164,3 +164,22 @@ function pick()
     p = 0;
 }
 
+function open()
+{
+    const t = document.getElementById("Id_Reponse");
+    const texte = t.value;
+    
+    if(texte===" ")
+    {
+        document.getElementById("lala").innerHTML = "Veuillez écrire une marque.";
+    }
+    elise if (texte.toLowerCase()==="dior")
+    {
+        document.getElementById("lala").innerHTML = "Oui ! Bravo ! Vous avez trouvez la bonne réponse !";
+    }
+    elise if (texte.toLowerCase()!=="dior")
+    {
+        document.getElementById("lala").innerHTML = "Non, dommage ! Vous y êtes preque !";
+    } 
+
+}
