@@ -264,7 +264,7 @@ function bouton_fin()
 function resultats()
 {
 	document.getElementById("note").innerHTML = pointsquiz+"/10";
-	if (pointsquiz<5 and pointsquiz>=0)
+	if (pointsquiz<5 && pointsquiz>=0)
 	{
 		document.getElementById("lesresultats").innerHTML = "C'est pas fou";
 	}
