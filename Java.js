@@ -115,11 +115,11 @@ function pick_1()
     }
     if(un==0)
     {
-        document.getElementById("l1a").innerHTML="Dommage, vous avez 0 bonnes réponses sur 2. Les bonnes réponses étaient : <b>250 + 1750</b> et <b>0.6 + 95.3 + 4.1 + 3900</b>";
+        document.getElementById("l1a").innerHTML="Dommage, vous avez 0 bonnes réponses sur 2. Les bonnes réponses étaient : <b>3500 + 500</b> et <b>0.6 + 95.3 + 4.1 + 3900</b>";
     }
     else if(un==1)
     {
-        document.getElementById("l1a").innerHTML="Presque, vous avez 1 bonnes réponse sur 2. Les bonnes réponses étaient : <b>250 + 1750</b> et <b>0.6 + 95.3 + 4.1 + 3900</b>";
+        document.getElementById("l1a").innerHTML="Presque, vous avez 1 bonnes réponse sur 2. Les bonnes réponses étaient : <b>3500 + 500</b> et <b>0.6 + 95.3 + 4.1 + 3900</b>";
     }
     else if(un==2)
     {
@@ -128,7 +128,7 @@ function pick_1()
     }
     else if(un<0)
     {
-        document.getElementById("l1a").innerHTML="Vous avez une ou plusieurs réponses fausses ! Les bonnes réponses étaient : <b>250 + 1750</b> et <b>0.6 + 95.3 + 4.1 + 3900</b> ";
+        document.getElementById("l1a").innerHTML="Vous avez une ou plusieurs réponses fausses ! Les bonnes réponses étaient : <b>3500+ 500</b> et <b>0.6 + 95.3 + 4.1 + 3900</b> ";
     }
     
     un = 0;
@@ -264,7 +264,7 @@ function bouton_fin()
 function resultats()
 {
 	document.getElementById("note").innerHTML = pointsquiz+"/10";
-	if (pointsquiz<5)
+	if (pointsquiz<5 and pointsquiz>=0)
 	{
 		document.getElementById("lesresultats").innerHTML = "C'est pas fou";
 	}
