@@ -267,7 +267,7 @@ function resultats()
 	if (pointsquiz<5 && pointsquiz>=0)
 	{
 		document.getElementById("lesresultats").innerHTML = "C'est pas fou";
-		document.getElementById("monGif").src = "images/Iori_lose.gif";
+		document.getElementById("monGif").src = "images/Kohei_lose.gif";
 	}
 	else if (pointsquiz==10)
 	{
@@ -277,7 +277,7 @@ function resultats()
 	else if (pointsquiz<0)
 	{
 		document.getElementById("lesresultats").innerHTML = "Un score négatif ??? Vraiment ? Retournez sur notre site !";
-		document.getElementById("monGif").src = "images/Iori_ultralose.gif";
+		document.getElementById("monGif").src = "images/Kohei_ultralose.gif";
 	}
 	else
 	{
