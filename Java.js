@@ -271,6 +271,7 @@ function resultats()
 	else if (pointsquiz==10)
 	{
 		document.getElementById("lesresultats").innerHTML = "C'est parfait Bravo !";
+		document.getElementById("Winwin").scr="images/Iori_ultrawin.gif"
 	}
 	else if (pointsquiz<0)
 	{
