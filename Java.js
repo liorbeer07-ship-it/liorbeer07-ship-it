@@ -267,19 +267,22 @@ function resultats()
 	if (pointsquiz<5 && pointsquiz>=0)
 	{
 		document.getElementById("lesresultats").innerHTML = "C'est pas fou";
+		document.getElementById("monGif").src = "images/Iori_lose.gif";
 	}
 	else if (pointsquiz==10)
 	{
 		document.getElementById("lesresultats").innerHTML = "C'est parfait Bravo !";
-		document.getElementById("Winwin").scr="images/Iori_ultrawin.gif"
+		document.getElementById("monGif").src = "images/Iori_ultrawin.gif";
 	}
 	else if (pointsquiz<0)
 	{
 		document.getElementById("lesresultats").innerHTML = "Un score négatif ??? Vraiment ? Retournez sur notre site !";
+		document.getElementById("monGif").src = "images/Iori_ultralose.gif";
 	}
 	else
 	{
 		document.getElementById("lesresultats").innerHTML = "C'est pas mal du tout!";
+		document.getElementById("monGif").src = "images/Iori_win.gif";
 	}
 }
     
